@@ -1,0 +1,23 @@
+{
+  "note": "FINAL one-time TEST evaluation; no retuning or model changes after this.",
+  "eval_split": "test",
+  "test_rows_scored": 8207,
+  "test_range": [
+    "2025-07-15 23:00:00",
+    "2026-06-29 21:00:00"
+  ],
+  "persistence": {
+    "mae": 27.32543986840502,
+    "rmse": 43.9050740431536
+  },
+  "lightgbm": {
+    "mae": 24.170496636578402,
+    "rmse": 36.97135581703998
+  },
+  "quantile_lstm_median": {
+    "mae": 24.023334700104613,
+    "rmse": 37.070993340362335,
+    "coverage_10_90_pct": 76.49567442427197,
+    "crossing_pct": 0.0
+  }
+}
